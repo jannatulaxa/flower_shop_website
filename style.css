@@ -1,0 +1,49 @@
+*{
+    font-family: 'Cookie', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*     <!-- 1st section Start --> */
+.banner01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FDEEF1 ;
+    height: 720px;
+    width: 100%;
+}
+.banner01 >.bannertext{
+    margin-left: 100px;
+    width: 580px;
+}
+.banner01 h1{
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.banner01 p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.71);
+    margin-bottom: 30px;
+}
+.banner01 button{
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 32px;
+    outline: none;
+    border: none;
+}
+.banner01 >div>img{
+    height: 600px;
+    margin-bottom: -121px;
+    margin-right: 150px;
+}
+ /*     <!-- 1st section End --> */
