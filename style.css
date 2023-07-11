@@ -1,11 +1,65 @@
 *{
-    font-family: 'Cookie', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Crimson Pro', serif;
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
+/*         <!-- Extra part 01 start --> */
+.hdnav{
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.61);
+    position: fixed;
+    backdrop-filter: blur(8px);
+}
+.logo{
+    margin: 25px 0px 0px 150px;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 150px;
+    
+}
+.nav ul li a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.nav ul li a:hover{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #E55473;
+    font-weight: 600;
+}
+.nvbtn{
+    outline: none;
+    border: none;
+}
+.nvbtn a{
+    background-color: #E55473;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nvbtn a:hover{
+    border: 3px solid #E55473;
+}
+/*         <!-- Extra part 01 end --> */
+
+
 /*     <!-- 1st section Start --> */
 .banner01{
     display: flex;
@@ -21,7 +75,7 @@
 }
 .banner01 h1{
     font-size: 65px;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 30px;
 }
 .banner01 p{
@@ -264,6 +318,10 @@
 }
  /*     <!-- 6th section End --> */
 
+/*     <!-- Extra part 02 start --> */
+
+
+/*     <!-- Extra part 02 end --> */
 
  /*     <!-- Footer Start --> */
 footer{
@@ -297,3 +355,4 @@ footer{
     color: rgb(107, 107, 107);
 }
  /*     <!-- Footer End --> */
+ 
