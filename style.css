@@ -316,10 +316,75 @@
     font-size: 16px;
     margin-left: 10px;
 }
- /*     <!-- 6th section End --> */
+/*     <!-- 6th section End --> */
 
 /*     <!-- Extra part 02 start --> */
 
+.section07{
+    width: 90%;
+    margin-left: 80px;
+}
+.pbh{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.pbp{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.prizecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px; 
+    margin-top: -20px;   
+}
+.pb1{
+    margin: 40px;
+    padding: 30px 20px;
+    background: linear-gradient(rgb(255, 199, 199) 30%, #E55473);
+    text-align: center;
+    color: white;
+    height: 520px;
+    width: 250px;
+    box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.748);
+    border-radius: 0px 30px 0px 30px;
+}
+.pb1 .buynow:hover{
+    color: #E55473;
+    border: 5px solid white;
+
+
+}
+.pb1 > p{
+    color: rgba(0, 0, 0, 0.64);
+    padding-bottom: 5px;
+}
+.pb1 > h4{
+    font-size: 45px;
+    color: #E55473;
+}
+.pb1 > h5{
+    font-size: 70px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.pb1 > ul >li{
+    list-style: none;
+    line-height: 40px;
+}
+.buynow{
+    margin: 20px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #e55473ab;
+}
 
 /*     <!-- Extra part 02 end --> */
 
