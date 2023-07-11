@@ -17,7 +17,10 @@
 }
 .logo{
     margin: 25px 0px 0px 150px;
-    
+}
+.logo >h1{
+    /* color: #fff; */
+
 }
 .nav ul{
     display: flex;
@@ -331,7 +334,8 @@
 }
 .pbp{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 .prizecontainer{
     display: flex;
