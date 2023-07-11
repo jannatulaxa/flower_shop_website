@@ -352,7 +352,7 @@
     color: white;
     height: 520px;
     width: 250px;
-    box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.748);
+    box-shadow: 20px 20px 30px rgba(128, 128, 128, 0.409);
     border-radius: 0px 30px 0px 30px;
 }
 .pb1 .buynow:hover{
